@@ -1,6 +1,6 @@
 # README
 
-This is README for manuscript ***The influence of demographic history and genetic architecture on complex traits via runs of homozygosity*** by Mingzuyu Pan and Zachary A Szpiech. The purpose of this README is to describe the complete simulation and analysis workflow involved in the manuscript. If you have questions, please contact Mingzuyu (mzp5919@psu.edu).
+This is README for manuscript ***The influence of demographic history and genetic architecture on complex traits via runs of homozygosity*** by Mingzuyu Pan and Zachary A Szpiech (https://www.biorxiv.org/content/10.64898/2025.12.17.694908v2). The purpose of this README is to describe the complete simulation and analysis workflow involved in the manuscript. If you have questions, please contact Mingzuyu (mzp5919@psu.edu).
 
 ## Directory Organization
 

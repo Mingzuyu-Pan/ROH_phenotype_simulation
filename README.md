@@ -139,3 +139,19 @@ Remember to change the head settings in each bash file for your own cluster. Ide
 `absolute_change_deleterious_with_se.R`, `absolute_change_neutral_with_se.R` : To plot the change of differences in per-cM phenotype score contribution between ROH and non-ROH regions with tau increasing (Figure 5, 6).
 
 `proportion_plot_with_se_deleterious.R`, `propotion_plot_with_se_neutral.R` : To plot the proportion of phenotype scores explained by different ROH and non-ROH regions (Figure 7, 8), but remember to run `proportion_mean_ste_cal.py` first to calculate the standard error for plotting.
+
+## Robustness Analyses
+
+The `5_Robustness_analyses` directory contains additional analyses addressing robustness of the main results under alternative model specifications, ROH calling methods, and comparisons with empirical data.
+
+Each subdirectory follows a consistent internal structure: analysis and data processing scripts, raw and summary data, and plotting scripts and output figures.
+
+| Directory | Description |
+|-----------|-------------|
+| `sparse.model` | Sparse causal variant analysis, where only a subset of deleterious mutations are designated as causal alleles (subset proportions: 1.0 and 0.3) |
+| `number.of.causal` | Distribution of the number of causal alleles across ROH and non-ROH regions |
+| `allele.frequency.spectrum` | Allele frequency spectra of causal variants, partitioned by ROH status |
+| `germline` | Comparison of ROH calling between GARLIC and GERMLINE under the fully recessive model across all populations and τ values |
+| `only.Mb` | Comparison of ROH classification by physical length (Mb) versus genetic length (cM) under the fully recessive model |
+| `1000genomes` | Comparison of simulated ROH patterns with empirical data from the 1000 Genomes Project. Raw 1000 Genomes data are publicly available and not included in this repository; see the manuscript for specific versions used |
+| `genetic.variance` | Analysis of genotypic variance decomposition across ROH and non-ROH regions |
